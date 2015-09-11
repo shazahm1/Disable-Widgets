@@ -14,7 +14,7 @@
  * Plugin Name:       Disable Widgets
  * Plugin URI:        http://connections-pro.com
  * Description:       Disable widgets.
- * Version:           1.1
+ * Version:           2.0
  * Author:            Steven A. Zahm
  * Author URI:        http://connections-pro.com
  * License:           GPL-2.0+
