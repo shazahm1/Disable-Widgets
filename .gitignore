@@ -1,69 +1,63 @@
-*.log
-.htaccess
-sitemap.xml
-sitemap.xml.gz
-wp-config.php
-wp-content/advanced-cache.php
-wp-content/backup-db/
-wp-content/backups/
-wp-content/blogs.dir/
-wp-content/cache/
-wp-content/upgrade/
-wp-content/uploads/
-wp-content/wp-cache-config.php
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
+# OS generated files #
+######################
 .DS_Store
-.AppleDouble
-.LSOverride
-
-# Icon must end with two \r
-Icon
-
-
-# Thumbnails
+.DS_Store?
 ._*
-
-# Files that might appear on external disk
 .Spotlight-V100
 .Trashes
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
-# Windows
-# =========================
-
-# Windows image file caches
-Thumbs.db
+#Icon?
 ehthumbs.db
+Thumbs.db
 
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# PO File  #
+# i18n #
 ############
+connections.mo
+connections-en_US.mo
 *.po
 
-# Sublime Text 2 #
-##################
+# Sublime Text #
+################
+*.sublime-project
+*.sublime-workspace
 sftp-config.json
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+# phpStorm #
+############
+.idea
+
+# Eclipse #
+###########
+.project
+*.pydevproject
+.metadata
+.gradle
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+
+# Dreamweaver #
+###############
+_notes
+dwsync.xml
+
+# Transifex #
+#############
+tx.exe
+
+# Grunt #
+#########
+node_modules
+
+# Misc #
+########
+build
+logs
